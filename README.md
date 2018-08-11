@@ -39,7 +39,7 @@
 В многопользовательском режиме используется каталог общий Application Data . Т.е. у всех учетных записей Windows будут общие настройки, книги в библиотеке и т.д...
 
 Расположение каталога зависит от версии ОС:
-- XP:	C:\Documents and Settings\All Users\Application Data\KooBAudio\
+- Windows XP:	C:\Documents and Settings\All Users\Application Data\KooBAudio\
 - Windows Vista / Windows 7 /  Windows 8 /  Windows 10:			С:\ProgramData\KooBAudio\
 
  В portable режиме используется каталог, в котором расположен исполняемый файл программы. Настройки, книги в библиотеке и прочие данные не будут зависеть от учетной записи Windows. Папку с portable версией программы можно записать на любой внешний носитель и запускать на разных компьютерах (при условии, что на них установлен .NET Framework и нужный голосовой движок).
