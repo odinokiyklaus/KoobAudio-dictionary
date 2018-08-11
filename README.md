@@ -36,7 +36,7 @@
 -  Windows XP:		C:\Documents and Settings\Имя пользователя\Application Data\KooBAudio\
 -  Windows Vista / Windows 7 /  Windows 8 /  Windows 10:	С:\Users\Имя пользователя\AppData\Roaming\KooBAudio\
 
-В многопользовательском режиме используется каталог общий Application Data . Т.е. у всех учетных записей Windows будут общие настройки, книги в библиотеке и т.д...
+В многопользовательском режиме используется каталог общий Application Data . Т.е. у всех учетных записей Windows будут общие настройки, книги в библиотеке и т.д.
 
 Расположение каталога зависит от версии ОС:
 - Windows XP:	C:\Documents and Settings\All Users\Application Data\KooBAudio\
