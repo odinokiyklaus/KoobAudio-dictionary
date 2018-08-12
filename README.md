@@ -16,25 +16,18 @@
  - Microsoft Visual C++ 2010 Redistributable Package (x86)
  - SAPI5 совместимый и рекомендуемый речевой синтезатор «ELAN TTS Russian (Nicolai 16Khz)»
  
-В случае запуска программы  KoobAudio в WINE, должны быть установлены следующие компоненты:
-- vcrun2010
-- speechsdk
+Для запуска программы  KoobAudio в WINE, должны быть установлены следующие компоненты:
 - mfc42
-- dotnet40
-
-
-- dsound
-- mfc40
-- msxml6
 - richtx32
 - riched30
-
-- directx9
-- vcrun6sp6
+- vcrun2010
+- speechsdk
 - vcrun6
-- wsh57
- 
- ### Особенности установки самой программы:
+- dotnet40
+
+После установки компонентов, дополнительно устанавливаются Elan Tempo Multimedia.msi, koobaudio_2.1.2.8744. После установки, в настройках Spech выставляется язык SAPI DeveloperSample Engine.
+
+ ### Особенности установки программы KoobAudio:
 
 На сайте программа KoobAudio доступна как в виде:
 - portable-версии (без установки) http://koobaudio.narod.ru/files/koobaudio_2.1.2.8744.zip (рекомендуемая мною версия).
