@@ -93,83 +93,83 @@
  
  Поддерживаются следующие типы правил упрощенного синтаксиса:
  
-<table style="height: 304px; width: 526px; border-color: 255;" border="1"><caption>&nbsp;</caption>
+<table style="height: 304px; width: 525px;" border="1">
 <tbody>
 <tr style="height: 40px;">
-<td style="width: 301.44px; text-align: center; height: 40px;">
+<td style="width: 301px; text-align: center; height: 40px;">
 <p><strong>Правила без учёта регистра&nbsp;</strong><strong>(кроме последнего)</strong></p>
 </td>
-<td style="width: 223.36px; text-align: center; height: 40px;" colspan="4"><strong>Соответствие в строке (подчеркнуто)</strong></td>
+<td style="width: 221px; text-align: center; height: 40px;" colspan="4"><strong>Соответствие в строке (подчеркнуто)</strong></td>
 </tr>
 <tr style="height: 40px;">
-<td style="width: 301.44px; text-align: left; height: 40px;"><strong>&nbsp;Простые правила для отдельного слова:</strong><br />&nbsp;кот=КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 40px;"><u>КОТ</u></td>
-<td style="width: 55.68px; text-align: center; height: 40px;">котел</td>
-<td style="width: 55.68px; text-align: center; height: 40px;">скот</td>
-<td style="width: 56.32px; text-align: center; height: 40px;">скотч.</td>
+<td style="width: 301px; text-align: left; height: 40px;"><strong>&nbsp;Простые правила для отдельного слова:</strong><br />&nbsp;кот=КОТ</td>
+<td style="width: 55px; text-align: center; height: 40px;"><u>КОТ</u></td>
+<td style="width: 55px; text-align: center; height: 40px;">котел</td>
+<td style="width: 55.48px; text-align: center; height: 40px;">скот</td>
+<td style="width: 55.52px; text-align: center; height: 40px;">скотч.</td>
 </tr>
 <tr style="height: 40px;">
-<td style="width: 301.44px; text-align: left; height: 40px;"><strong><span lang="EN-US">&nbsp;С</span><span class="SpellE">лово</span>&nbsp;целиком, или начало слова:</strong><br />&nbsp;кот*=КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 40px;"><span style="text-decoration: underline;">КОТ</span></td>
-<td style="width: 55.68px; text-align: center; height: 40px;"><span style="text-decoration: underline;">КОТ</span>ел</td>
-<td style="width: 55.68px; text-align: center; height: 40px;">скот</td>
-<td style="width: 56.32px; text-align: center; height: 40px;">скотч.</td>
+<td style="width: 301px; text-align: left; height: 40px;"><strong><span lang="EN-US">&nbsp;С</span><span class="SpellE">лово</span>&nbsp;целиком, или начало слова:</strong><br />&nbsp;кот*=КОТ</td>
+<td style="width: 55px; text-align: center; height: 40px;"><span style="text-decoration: underline;">КОТ</span></td>
+<td style="width: 55px; text-align: center; height: 40px;"><span style="text-decoration: underline;">КОТ</span>ел</td>
+<td style="width: 55.48px; text-align: center; height: 40px;">скот</td>
+<td style="width: 55.52px; text-align: center; height: 40px;">скотч.</td>
 </tr>
 <tr style="height: 40px;">
-<td style="width: 301.44px; text-align: left; height: 40px;"><strong>&nbsp;Слово целиком, или окончание слова:</strong><br />&nbsp;*кот=КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 40px;"><span style="text-decoration: underline;">КОТ</span></td>
-<td style="width: 55.68px; text-align: center; height: 40px;">котел</td>
-<td style="width: 55.68px; text-align: center; height: 40px;">с<span style="text-decoration: underline;">КОТ</span></td>
-<td style="width: 56.32px; text-align: center; height: 40px;">скотч.</td>
+<td style="width: 301px; text-align: left; height: 40px;"><strong>&nbsp;Слово целиком, или окончание слова:</strong><br />&nbsp;*кот=КОТ</td>
+<td style="width: 55px; text-align: center; height: 40px;"><span style="text-decoration: underline;">КОТ</span></td>
+<td style="width: 55px; text-align: center; height: 40px;">котел</td>
+<td style="width: 55.48px; text-align: center; height: 40px;">с<span style="text-decoration: underline;">КОТ</span></td>
+<td style="width: 55.52px; text-align: center; height: 40px;">скотч.</td>
 </tr>
 <tr style="height: 3.84px;">
-<td style="width: 301.44px; height: 3.84px;"><strong>&nbsp;Слово целиком, или часть&nbsp;слова:</strong><br />&nbsp;*кот*=КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 3.84px;"><span style="text-decoration: underline;"> КОТ</span></td>
-<td style="width: 55.68px; text-align: center; height: 3.84px;"><span style="text-decoration: underline;"> КОТ</span>ел</td>
-<td style="width: 55.68px; text-align: center; height: 3.84px;">с<span style="text-decoration: underline;">КОТ </span></td>
-<td style="width: 56.32px; text-align: center; height: 3.84px;">с<span style="text-decoration: underline;">КОТ</span>ч.</td>
+<td style="width: 301px; height: 3.84px;"><strong>&nbsp;Слово целиком, или часть&nbsp;слова:</strong><br />&nbsp;*кот*=КОТ</td>
+<td style="width: 55px; text-align: center; height: 3.84px;"><span style="text-decoration: underline;"> КОТ</span></td>
+<td style="width: 55px; text-align: center; height: 3.84px;"><span style="text-decoration: underline;"> КОТ</span>ел</td>
+<td style="width: 55.48px; text-align: center; height: 3.84px;">с<span style="text-decoration: underline;">КОТ </span></td>
+<td style="width: 55.52px; text-align: center; height: 3.84px;">с<span style="text-decoration: underline;">КОТ</span>ч.</td>
 </tr>
 <tr style="height: 20px;">
-<td style="width: 301.44px; text-align: left; height: 20px;">&nbsp;<strong>Начало слова:</strong><br />&nbsp;кот&amp;=КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 20px;"><span style="text-decoration: underline;">КОТ</span>ел</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">скот</td>
-<td style="width: 56.32px; text-align: center; height: 20px;">скотч.</td>
+<td style="width: 301px; text-align: left; height: 20px;">&nbsp;<strong>Начало слова:</strong><br />&nbsp;кот&amp;=КОТ</td>
+<td style="width: 55px; text-align: center; height: 20px;">КОТ</td>
+<td style="width: 55px; text-align: center; height: 20px;"><span style="text-decoration: underline;">КОТ</span>ел</td>
+<td style="width: 55.48px; text-align: center; height: 20px;">скот</td>
+<td style="width: 55.52px; text-align: center; height: 20px;">скотч.</td>
 </tr>
 <tr style="height: 20px;">
-<td style="width: 301.44px; text-align: left; height: 20px;">&nbsp;<strong>Окончание слова:</strong><br />&nbsp;&amp;кот=КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">котел</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">с<span style="text-decoration: underline;">КОТ</span></td>
-<td style="width: 56.32px; text-align: center; height: 20px;">скотч.</td>
+<td style="width: 301px; text-align: left; height: 20px;">&nbsp;<strong>Окончание слова:</strong><br />&nbsp;&amp;кот=КОТ</td>
+<td style="width: 55px; text-align: center; height: 20px;">КОТ</td>
+<td style="width: 55px; text-align: center; height: 20px;">котел</td>
+<td style="width: 55.48px; text-align: center; height: 20px;">с<span style="text-decoration: underline;">КОТ</span></td>
+<td style="width: 55.52px; text-align: center; height: 20px;">скотч.</td>
 </tr>
 <tr style="height: 20px;">
-<td style="width: 301.44px; text-align: left; height: 20px;">&nbsp;<strong>Часть в середине&nbsp;слова:</strong><br />&nbsp;&amp;кот&amp;=КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">котел</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">скот</td>
-<td style="width: 56.32px; text-align: center; height: 20px;">с<span style="text-decoration: underline;">КОТ</span>ч.</td>
+<td style="width: 301px; text-align: left; height: 20px;">&nbsp;<strong>Часть в середине&nbsp;слова:</strong><br />&nbsp;&amp;кот&amp;=КОТ</td>
+<td style="width: 55px; text-align: center; height: 20px;">КОТ</td>
+<td style="width: 55px; text-align: center; height: 20px;">котел</td>
+<td style="width: 55.48px; text-align: center; height: 20px;">скот</td>
+<td style="width: 55.52px; text-align: center; height: 20px;">с<span style="text-decoration: underline;">КОТ</span>ч.</td>
 </tr>
 <tr style="height: 20px;">
-<td style="width: 301.44px; text-align: left; height: 20px;">&nbsp;<strong>Начало или часть в середине слова:</strong><br />&nbsp;*кот&amp;=КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 20px;"><span style="text-decoration: underline;">КОТ</span>ел</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">скот</td>
-<td style="width: 56.32px; text-align: center; height: 20px;">с<span style="text-decoration: underline;">КОТ</span>ч.</td>
+<td style="width: 301px; text-align: left; height: 20px;">&nbsp;<strong>Начало или часть в середине слова:</strong><br />&nbsp;*кот&amp;=КОТ</td>
+<td style="width: 55px; text-align: center; height: 20px;">КОТ</td>
+<td style="width: 55px; text-align: center; height: 20px;"><span style="text-decoration: underline;">КОТ</span>ел</td>
+<td style="width: 55.48px; text-align: center; height: 20px;">скот</td>
+<td style="width: 55.52px; text-align: center; height: 20px;">с<span style="text-decoration: underline;">КОТ</span>ч.</td>
 </tr>
 <tr style="height: 20px;">
-<td style="width: 301.44px; text-align: left; height: 20px;">&nbsp;<strong>Окончание или часть в середине слова:</strong><br />&nbsp;&amp;кот*=КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">КОТ</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">котел</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">с<span style="text-decoration: underline;">КОТ</span></td>
-<td style="width: 56.32px; text-align: center; height: 20px;">с<span style="text-decoration: underline;">КОТ</span>ч.</td>
+<td style="width: 301px; text-align: left; height: 20px;">&nbsp;<strong>Окончание или часть в середине слова:</strong><br />&nbsp;&amp;кот*=КОТ</td>
+<td style="width: 55px; text-align: center; height: 20px;">КОТ</td>
+<td style="width: 55px; text-align: center; height: 20px;">котел</td>
+<td style="width: 55.48px; text-align: center; height: 20px;">с<span style="text-decoration: underline;">КОТ</span></td>
+<td style="width: 55.52px; text-align: center; height: 20px;">с<span style="text-decoration: underline;">КОТ</span>ч.</td>
 </tr>
 <tr style="height: 20px;">
-<td style="width: 301.44px; text-align: left; height: 20px;">&nbsp;<strong>Символ $ в начале шаблона включает режим сравнения с учетом регистра*:</strong><br />&nbsp;$Кот<span class="GramE">=К</span>о&lt;т</td>
-<td style="width: 55.68px; text-align: center; height: 20px;"><u>Ко&lt;т</u></td>
-<td style="width: 55.68px; text-align: center; height: 20px;">кот</td>
-<td style="width: 55.68px; text-align: center; height: 20px;">кОт</td>
-<td style="width: 56.32px; text-align: center; height: 20px;">КОТ</td>
+<td style="width: 301px; text-align: left; height: 20px;">&nbsp;<strong>Символ $ в начале шаблона включает режим сравнения с учетом регистра*:</strong><br />&nbsp;$Кот<span class="GramE">=К</span>о&lt;т</td>
+<td style="width: 55px; text-align: center; height: 20px;"><u>Ко&lt;т</u></td>
+<td style="width: 55px; text-align: center; height: 20px;">кот</td>
+<td style="width: 55.48px; text-align: center; height: 20px;">кОт</td>
+<td style="width: 55.52px; text-align: center; height: 20px;">КОТ</td>
 </tr>
 </tbody>
 </table>
