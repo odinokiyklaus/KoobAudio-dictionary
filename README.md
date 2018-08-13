@@ -94,7 +94,7 @@
   Поддерживаются следующие типы правил упрощенного синтаксиса:
  
 <p></p>
-<table style="height: 304px; width: 525px;" border="3">
+<table style="height: 304px; width: 525px;" border="2" cellspacing="1">
 <tbody>
 <tr style="height: 40px;">
 <td style="width: 301px; text-align: center; height: 40px;">
