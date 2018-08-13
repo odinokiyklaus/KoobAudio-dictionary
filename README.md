@@ -66,8 +66,8 @@
  - C:\Documents and Settings\Имя пользователя\Application Data\KooBAudio\Dic
  - С:\Users\Имя пользователя\AppData\Roaming\KooBAudio\Dic
  - C:\ProgramData\KooBAudio\Dic
- - C:\Documents and Settings\All Users\Application Data\KooBAudio\
- - С:\ProgramData\KooBAudio\
+ - C:\Documents and Settings\All Users\Application Data\KooBAudio\Dic
+ - С:\ProgramData\KooBAudio\Dic
  2. Удалить из папки Dic все находящиеся в ней файлы.
  3. Скопировать словари в данную папку. 
  
