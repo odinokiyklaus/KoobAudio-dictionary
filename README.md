@@ -93,6 +93,7 @@
  
  Поддерживаются следующие типы правил упрощенного синтаксиса:
  
+<p></p>
 <table style="height: 304px; width: 525px;" border="1">
 <tbody>
 <tr style="height: 40px;">
