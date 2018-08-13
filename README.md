@@ -93,7 +93,7 @@
  
  Поддерживаются следующие типы правил упрощенного синтаксиса:
  
- <table style="height: 304px; width: 526px;">
+<table style="height: 304px; width: 526px; border-color: 255;" border="1"><caption>&nbsp;</caption>
 <tbody>
 <tr style="height: 40px;">
 <td style="width: 301.44px; text-align: center; height: 40px;">
